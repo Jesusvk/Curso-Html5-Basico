@@ -1,0 +1,87 @@
+
+body{
+	background-image: url('back.jpg');
+	color:skyblue;
+}
+aside,nav,section#contenedor,section#contenido,footer{
+	border-radius: 15px;
+	background-color: lightblue;
+	display: inline-block;
+	margin: 5px;
+	padding: 5px;
+	text-align: center;
+	width: 95%;
+}
+aside,section#contenido{
+	display: inline-block;
+	background-color: white;
+	min-height: 200px;
+	vertical-align:top;
+	width:65%;
+}
+aside{
+	width:30%;
+}
+/*Menu*/
+header nav {
+	background:darkblue;
+}
+
+	header nav ul {
+		list-style: none;
+		overflow: hidden;
+	}
+
+		header nav ul li {
+			float: left;
+		}
+
+			header nav ul li a {
+				margin: 0 10px 0 10px;
+				display: block;
+				padding: 21px 37px 21px 37px;
+				color:#fff;
+				text-decoration: none;
+				background-color: steelblue;
+				border-radius: 5px;
+			}
+
+				header nav ul li a:hover {
+					font-family: "Times New Roman", Times, serif;
+					font-size: 110%;
+					border-radius: 10px;
+					background:darkgreen;
+				}
+/*Fin menu*/
+/*Directorio*/
+	ul#directorio{
+		
+	}
+	ul#directorio  li{
+		margin: 3% 0 3% 0;
+		list-style:none;
+		background-color: slateblue;
+		margin-right: 10%;
+		margin-left: 10%;
+		width: 70%;
+		padding:10px;
+		border-radius: 35px;
+	}
+		ul#directorio  li a{
+			color:white;
+			text-decoration: none;
+		}
+		ul#directorio  li:hover{
+				background:darkcyan;
+		}
+/*Fin directorio*/
+.sr{
+	width:22%;
+}
+h2:hover{
+	color:darkgreen;
+}
+article{
+	margin:2%;
+	background-color:silver;
+}
