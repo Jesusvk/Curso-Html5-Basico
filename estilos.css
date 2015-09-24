@@ -1,9 +1,10 @@
 
 body{
-	background-image: url('back.jpg');
-	color:skyblue;
+	background:silver;
+	/*background-image: url('back.jpg');*/
+	color:darkslateblue;
 }
-aside,nav,section#contenedor,section#contenido,footer{
+aside,nav,section#contenedor,section#contenido,footer,div{
 	border-radius: 15px;
 	background-color: lightblue;
 	display: inline-block;
@@ -42,15 +43,15 @@ header nav {
 				padding: 21px 37px 21px 37px;
 				color:#fff;
 				text-decoration: none;
-				background-color: steelblue;
+				background-color: blueviolet;
 				border-radius: 5px;
 			}
 
 				header nav ul li a:hover {
 					font-family: "Times New Roman", Times, serif;
-					font-size: 110%;
+					font-size: 120%;
 					border-radius: 10px;
-					background:darkgreen;
+					background:mediumpurple;
 				}
 /*Fin menu*/
 /*Directorio*/
@@ -72,16 +73,27 @@ header nav {
 			text-decoration: none;
 		}
 		ul#directorio  li:hover{
-				background:darkcyan;
+				background:darkviolet;
 		}
 /*Fin directorio*/
 .sr{
 	width:22%;
 }
-h2:hover{
-	color:darkgreen;
+.sr:hover{
+	width:32%;
+	background:darkviolet;
+	border-radius: 20px;
+}
+article:hover{
+	border-radius:10px;
+	color:white;
+	background:blueviolet;
 }
 article{
 	margin:2%;
-	background-color:silver;
+}
+div{
+	background-color:rebeccapurple;
+	color:white;
+	font-size:15px;
 }
